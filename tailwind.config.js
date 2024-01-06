@@ -31,6 +31,11 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      backgroundImage: {
+        'hero-section': "url('/back.png')",
+        'background-section': "url('./src/assets/Rectangle 29 (1).png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     },
     fontFamily: {
       display: ['Oswald'],

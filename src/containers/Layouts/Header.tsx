@@ -1,6 +1,8 @@
-import NavbarHome from '@/components/Navbar/NavbarHome';
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import DenseAppBar from '@/components/Navbar/Navbar';
+
+// import NavbarHome from '@/components/Navbar/NavbarHome';
 
 interface RootHeaderInterface {
   title: string;
@@ -17,7 +19,8 @@ const RootHeader = ({ title, children }: RootHeaderInterface) => {
             <title>{title}</title>
             <link rel='' href='' />
           </Helmet>
-          <NavbarHome />
+          {/* <NavbarHome /> */}
+          <DenseAppBar />
           {children}
         </div>
       </React.Fragment>
