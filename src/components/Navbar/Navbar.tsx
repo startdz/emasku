@@ -6,7 +6,6 @@ import Logo from '@/assets/Logo Emasku side.png';
 import { Link } from 'react-router-dom';
 import { NavbarMenu } from '@/constants/Resource';
 import { Grid } from '@mui/material';
-import { makeStyles } from '@mui/material';
 
 // const useStyles = makeStyles((theme) => ({
 //   appBar: {
